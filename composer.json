@@ -1,0 +1,5 @@
+{
+    "require": {
+        "yper/yperapi-sdk-php": "^5.0"
+    }
+}

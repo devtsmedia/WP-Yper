@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a189e5e73d76cf6853737af0340818f9",
+    "packages": [
+        {
+            "name": "yper/yperapi-sdk-php",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yperteam/ypersdk-php.git",
+                "reference": "46b5f82ce9c97dcab589ab0bd1e20f975fc3107b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yperteam/ypersdk-php/zipball/46b5f82ce9c97dcab589ab0bd1e20f975fc3107b",
+                "reference": "46b5f82ce9c97dcab589ab0bd1e20f975fc3107b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "overtrue/phplint": "^1.1",
+                "phpunit/phpunit": "^8.5.16"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Yper\\SDK\\": "src/"
+                },
+                "psr-4": {
+                    "Yper\\SDK\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "YPER SAS",
+                    "email": "contact@yper.fr",
+                    "homepage": "https://www.yper.fr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP SDK for yperapi",
+            "homepage": "https://github.com/yperteam/ypersdk-php",
+            "keywords": [
+                "php",
+                "yper",
+                "yperapi"
+            ],
+            "support": {
+                "issues": "https://github.com/yperteam/ypersdk-php/issues",
+                "source": "https://github.com/yperteam/ypersdk-php/tree/v5.0.0"
+            },
+            "time": "2024-02-13T21:33:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
